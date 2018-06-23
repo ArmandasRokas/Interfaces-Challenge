@@ -17,7 +17,7 @@ public class Main {
 
         Saveable player = new Player("Hero", 99);
         System.out.println(((Player) player).getName()); // Casting Saveable object to play in order to use .getName() method
-        System.out.println(player);
+        System.out.println(player.toString());
         loadObject(player);
         System.out.println(player);
         saveObject(player);
