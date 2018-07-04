@@ -29,6 +29,7 @@ public class Main {
         // automatically cast for parameters in the methods
         // Method in main. Alle som har ssaveables interface, må meget gerne bruge denne method fordi
         // jeg ved at de har den rigtige struktur
+        // Til gengæld kan man kun bruge de metoder som er dekleret i Saveables interface
         List<String> values = saveable.write();
         for(int i = 0; i<values.size(); i++){
             System.out.print(values.get(i) + " ");
